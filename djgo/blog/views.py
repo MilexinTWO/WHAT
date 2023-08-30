@@ -14,3 +14,7 @@ def index(request):
     # print( article.link)
 
     return render(request, "index.html", {"articles": article})
+
+
+def GetImge(request):
+    return render(request, "index.html")
