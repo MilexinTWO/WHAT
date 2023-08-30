@@ -28,10 +28,10 @@ def math_iv(time_stamp):
 
 
 # Example usage:
-text_to_decrypt = "HUuJjicmo6q0aXspGQh39n4uX1h0eGkCXosem1FMNkczaokvhIRyuBtDB+nWFLmwSjxjT7kCkKnEhM4pYeeSS1cowPfgaqFcRieQycDN0iqfW4yI4Fm58RrWZSgNK4hB4L3Cf8EXtDce61wAVYmkR5KJY5tHJ+nDhibmfDEWvss="  # Put your encrypted text here
+text_to_decrypt = ""  # Put your encrypted text here
 text_to_encrypt = '{"TRANS_SN" : "","TRANS" : "1","MEMBER_CODE" : "1610000206","Src" : "c16859a27a3042128fc2d827011a3ecf","TIMESTAMP" : "2023-08-04 16:12:00:72"}'
-aes_key = "c16859a27a3042128fc2d827011a3ecf"  # Put your AES key here
-aes_iv = "1690946195"  # Put your AES IV here
+aes_key = ""  # Put your AES key here
+aes_iv = ""  # Put your AES IV here
 # 建立 MD5 物件
 
 decrypted_text = decrypt_aes(text_to_decrypt, aes_key, math_iv(aes_iv)[0:16])
